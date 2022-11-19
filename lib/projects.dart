@@ -1,0 +1,91 @@
+import 'package:quitodev/constants.dart';
+
+class Projects {
+  final Map<String, List<int>> projectsImages = {
+    textProjectsIconnect: [1, 2, 3, 4, 5],
+    textProjectsAutoBaires: [1, 2, 3, 4, 5],
+    textProjectsMorfando: [1, 2, 3, 4, 5, 6, 7, 8],
+    textProjectsPuntoPlato: [1, 2, 3, 4],
+    textProjectsPeluTime: [1, 2, 3, 4, 5, 6, 7, 8],
+  };
+  final Map<String, List<String>> projectsTech = {
+    textProjectsIconnect: [
+      textTechDart,
+      textTechFlutter,
+      textTechRespBuilder,
+      textTechCleanCode,
+      textTechSOLID,
+    ],
+    textProjectsAutoBaires: [
+      textTechDart,
+      textTechFlutter,
+      textTechFirebase,
+      textTechBloc,
+      textTechGetIt,
+      textTechRespBuilder,
+      textTechCleanCode,
+      textTechSOLID,
+      textTechAndroidTech,
+      textTechiOSTech,
+    ],
+    textProjectsMorfando: [
+      textTechSwift,
+      textTechSwiftUI,
+      textTechUIKit,
+      textTechFirebase,
+      textTechGoogleMaps,
+      textTechWebView,
+      textTechQRScanner,
+      textTechNotifications,
+      textTechMVVM,
+      textTechCleanCode,
+      textTechSOLID,
+      textTechAndroidTech,
+    ],
+    textProjectsPuntoPlato: [
+      textTechSwift,
+      textTechStoryboards,
+      textTechUIKit,
+      textTechCocoaPods,
+      textTechFirebase,
+      textTechKotlin,
+      textTechLiveData,
+      textTechKodein,
+      textTechKtor,
+      textTechRESTApi,
+      textTechJSON,
+      textTechGoogleMaps,
+      textTechMVVM,
+      textTechCleanCode,
+      textTechSOLID,
+    ],
+    textProjectsPeluTime: [
+      textTechKotlin,
+      textTechMVVM,
+      textTechCleanCode,
+      textTechRoom,
+      textTechRetrofit,
+      textTechCoroutines,
+      textTechLiveData,
+      textTechDaggerHilt,
+      textTechFirebase,
+      textTechGoogleMaps,
+      textTechNotifications,
+      textTechSOLID,
+    ],
+  };
+  final Map<String, List<String>> projectsSystems = {
+    textProjectsIconnect: [imageAndroid, imageApple, imageWeb],
+    textProjectsAutoBaires: [imageAndroid, imageApple, imageWeb],
+    textProjectsMorfando: [imageAndroid, imageApple],
+    textProjectsPuntoPlato: [imageAndroid, imageApple],
+    textProjectsPeluTime: [imageAndroid],
+  };
+  final List<String> projectsTitles = [
+    textProjectsIconnect,
+    textProjectsAutoBaires,
+    textProjectsMorfando,
+    textProjectsPuntoPlato,
+    textProjectsPeluTime,
+  ];
+}
